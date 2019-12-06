@@ -1,6 +1,6 @@
 #include<stdio.h>
-#define MAX_BOOK 20
-
+//#define MAX_BOOK 20
+const in MAX_BOOK=20;
 struct Book{
     unsigned int price;
     unsigned int pages;
