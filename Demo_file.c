@@ -30,7 +30,7 @@ int main(){
 
 void Display(const struct Book* ptr)
 {
-    printf("Price=%d\nPages=%d\nYear_of_publish=%lf\ntitle=%s\nAuthor_name=%s\nPublisher=%s\n\n\n",ptr->price,ptr->pages,ptr->year,ptr->title,ptr->author,ptr->publisher);
+    printf("Price=%u\nPages=%u\nYear_of_publish=%lf\ntitle=%s\nAuthor_name=%s\nPublisher=%s\n\n\n",ptr->price,ptr->pages,ptr->year,ptr->title,ptr->author,ptr->publisher);
 }
 
 void DisplayAll(const struct Book* ptr,int n)
